@@ -2,3 +2,7 @@ baseURL = 'http://flofricke.github.io/sv-tyrol-abbensen/'
 languageCode = 'de-de'
 title = 'Webseite des Schützeverein Tyrol-Abbensen'
 theme = 'mainroad'
+
+
+[Params.style.vars]
+  highlightColor = "#296b24" # Override highlight color
