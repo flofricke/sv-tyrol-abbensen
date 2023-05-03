@@ -29,7 +29,6 @@ theme = 'mainroad'
   pageRef = '/services'
   weight = 30
 
-[menu]
 [[menu.footer]]
   name = 'Impressum'
   pageRef = '/impressum'
