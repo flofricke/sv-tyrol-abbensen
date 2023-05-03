@@ -6,3 +6,8 @@ theme = 'mainroad'
 
 [Params.style.vars]
   highlightColor = "#296b24" # Override highlight color
+
+[Params.logo]
+  image = "img/placeholder.png" # Logo image. Path relative to "static"
+  title = "Webseite des Schützeverein Tyrol-Abbensen" # Logo title, otherwise will use site title
+  subtitle = "Was hier wohl steht" # Logo subtitle
