@@ -1,5 +1,5 @@
 baseURL = 'http://flofricke.github.io/sv-tyrol-abbensen/'
-languageCode = 'de-de'
+languageCode = "de-de"
 title = 'Schützenverein Tyrol-Abbensen'
 theme = 'mainroad'
 
