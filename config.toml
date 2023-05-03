@@ -4,8 +4,6 @@ languageCode = 'de-de'
 title = 'Schützenverein Tyrol-Abbensen'
 theme = 'mainroad'
 
-menu: main
-
 [Params.style.vars]
   highlightColor = "#296b24" # Override highlight color
 
@@ -14,3 +12,29 @@ menu: main
   #title = "Webseite des Schützenverein Tyrol-Abbensen" # Logo title, otherwise will use site title
   subtitle = "Seit 1901" # Logo subtitle
 
+
+
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Products'
+  pageRef = '/products'
+  weight = 20
+[[menu.main]]
+  name = 'Services'
+  pageRef = '/services'
+  weight = 30
+
+[menu]
+[[menu.footer]]
+  name = 'Impressum'
+  pageRef = '/impressum'
+  weight = 10
+[[menu.footer]]
+  name = 'Privacy'
+  pageRef = '/privacy'
+  weight = 20
