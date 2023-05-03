@@ -1,6 +1,6 @@
 baseURL = 'http://flofricke.github.io/sv-tyrol-abbensen/'
 languageCode = 'de-de'
-title = 'Webseite des Schützeverein Tyrol-Abbensen'
+title = 'Webseite des Schützenverein Tyrol-Abbensen'
 theme = 'mainroad'
 
 
@@ -9,5 +9,5 @@ theme = 'mainroad'
 
 [Params.logo]
   image = "img/Wappen_Abbensen.jpg" # Logo image. Path relative to "static"
-  title = "Webseite des Schützeverein Tyrol-Abbensen" # Logo title, otherwise will use site title
-  subtitle = "Was hier wohl steht" # Logo subtitle
+  title = "Webseite des Schützenverein Tyrol-Abbensen" # Logo title, otherwise will use site title
+  subtitle = "Seit 1901 e.V." # Logo subtitle
