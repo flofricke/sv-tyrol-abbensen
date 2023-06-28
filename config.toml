@@ -1,8 +1,10 @@
 baseURL = 'http://flofricke.github.io/sv-tyrol-abbensen/'
 defaultContentLanguage = 'de'
-languageCode = 'de-de'
 title = 'Schützenverein Tyrol-Abbensen'
 theme = 'mainroad'
+
+[Params]
+  mainSections = ["docs","trala"]
 
 [Params.style.vars]
   highlightColor = "#296b24" # Override highlight color
@@ -11,30 +13,3 @@ theme = 'mainroad'
   image = "img/Wappen_Abbensen.jpg" # Logo image. Path relative to "static"
   #title = "Webseite des Schützenverein Tyrol-Abbensen" # Logo title, otherwise will use site title
   subtitle = "Seit 1901" # Logo subtitle
-
-[menu]
-[[menu.main]]
-  name = 'Neuigkeiten'
-  pageRef = '/'
-  weight = 10
-[[menu.main]]
-  name = 'Verein'
-  pageRef = '/verein'
-  weight = 20
-[[menu.main]]
-  name = 'Leinetalorchester'
-  pageRef = '/leinetalorchester'
-  weight = 30
-[[menu.main]]
-  name = 'Links'
-  pageRef = '/links'
-  weight = 40  
-
-[[menu.footer]]
-  name = 'Impressum'
-  pageRef = '/impressum'
-  weight = 10
-[[menu.footer]]
-  name = 'Kontakt'
-  pageRef = '/kontakt'
-  weight = 20
