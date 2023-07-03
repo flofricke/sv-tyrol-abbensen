@@ -1,15 +1,65 @@
 baseURL = 'http://flofricke.github.io/sv-tyrol-abbensen/'
 defaultContentLanguage = 'de'
 title = 'Schützenverein Tyrol-Abbensen'
-theme = 'mainroad'
+theme = 'highway'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "section"
+    name = "Section"
+    url = "/section"
+    weight = 2
+  [[menu.main]]
+    identifier = "category1"
+    name = "Category1"
+    url = "/categories/category1/"
+    parent = "section"
+    weight = 1
+  [[menu.main]]
+    identifier = "category2"
+    name = "Category2"
+    url = "/categories/category2/"
+    parent = "section"
+    weight = 2
+  [[menu.main]]
+    identifier = "category3"
+    name = "Category3"
+    url = "/categories/category3/"
+    parent = "section"
+    weight = 3
+  [[menu.main]]
+    identifier = "another-section"
+    name = "Another Section"
+    url = "/anothersection/"
+    weight = 3
+  [[menu.main]]
+    identifier = "another-category1"
+    name = "Another Category1"
+    url = "/categories/anothercategory1/"
+    parent = "another-section"
+    weight = 1
+  [[menu.main]]
+    identifier = "another-category2"
+    name = "Another Category2"
+    url = "/categories/anothercategory2/"
+    parent = "another-section"
+    weight = 2  
 
 [Params]
   mainSections = ["docs","trala"]
-
-[Params.style.vars]
-  highlightColor = "#296b24" # Override highlight color
-
-[Params.logo]
-  image = "img/Wappen_Abbensen.jpg" # Logo image. Path relative to "static"
-  #title = "Webseite des Schützenverein Tyrol-Abbensen" # Logo title, otherwise will use site title
+  logo = "img/Wappen_Abbensen.jpg"
   subtitle = "Seit 1901" # Logo subtitle
+  #highlightColor = "#296b24" # Override highlight color
+
+#[Params.style.vars]
+#  highlightColor = "#296b24" # Override highlight color
+
+#[Params.logo]
+#  image = "img/Wappen_Abbensen.jpg" # Logo image. Path relative to "static"
+  #title = "Webseite des Schützenverein Tyrol-Abbensen" # Logo title, otherwise will use site title
+#  subtitle = "Seit 1901" # Logo subtitle
