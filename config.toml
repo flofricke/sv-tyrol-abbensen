@@ -1,15 +1,48 @@
 baseURL = 'http://flofricke.github.io/sv-tyrol-abbensen/'
 defaultContentLanguage = 'de'
 title = 'Schützenverein Tyrol-Abbensen'
-theme = 'mainroad'
+theme = 'highway'
 
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Neuigkeiten"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "verein"
+    name = "Der Verein"
+    url = "/verein/verein/"
+    weight = 2
+  [[menu.main]]
+    identifier = "vorstand"
+    name = "Der Vorstand"
+    url = "/verein/vorstand/"
+    parent = "verein"
+    weight = 1
+  [[menu.main]]
+    identifier = "verein2"
+    name = "Der Verein2"
+    url = "/verein2/"
+    weight = 3
+  [[menu.main]]
+    identifier = "vorstand2"
+    name = "Der Vorstand2"
+    url = "/verein2/vorstand/"
+    parent = "verein2"
+    weight = 1    
+    
 [Params]
-  mainSections = ["docs","trala"]
-
-[Params.style.vars]
-  highlightColor = "#296b24" # Override highlight color
-
-[Params.logo]
-  image = "img/Wappen_Abbensen.jpg" # Logo image. Path relative to "static"
-  #title = "Webseite des Schützenverein Tyrol-Abbensen" # Logo title, otherwise will use site title
+  mainSections = ["neuigkeiten"]
+  logo = "img/Wappen_Abbensen.jpg"
   subtitle = "Seit 1901" # Logo subtitle
+  readmore = true # Show "Read more" button in list if true
+  #highlightColor = "#296b24" # Override highlight color
+
+#[Params.style.vars]
+#  highlightColor = "#296b24" # Override highlight color
+
+#[Params.logo]
+#  image = "img/Wappen_Abbensen.jpg" # Logo image. Path relative to "static"
+  #title = "Webseite des Schützenverein Tyrol-Abbensen" # Logo title, otherwise will use site title
+#  subtitle = "Seit 1901" # Logo subtitle
