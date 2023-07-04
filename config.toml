@@ -6,54 +6,37 @@ theme = 'highway'
 [menu]
   [[menu.main]]
     identifier = "home"
-    name = "Home"
+    name = "Neuigkeiten"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "section"
-    name = "Section"
-    url = "/section"
+    identifier = "verein"
+    name = "Der Verein"
+    url = "/verein/verein/"
     weight = 2
   [[menu.main]]
-    identifier = "category1"
-    name = "Category1"
-    url = "/categories/category1/"
-    parent = "section"
+    identifier = "vorstand"
+    name = "Der Vorstand"
+    url = "/verein/vorstand/"
+    parent = "verein"
     weight = 1
   [[menu.main]]
-    identifier = "category2"
-    name = "Category2"
-    url = "/categories/category2/"
-    parent = "section"
-    weight = 2
-  [[menu.main]]
-    identifier = "category3"
-    name = "Category3"
-    url = "/categories/category3/"
-    parent = "section"
+    identifier = "verein2"
+    name = "Der Verein2"
+    url = "/verein2/"
     weight = 3
   [[menu.main]]
-    identifier = "another-section"
-    name = "Another Section"
-    url = "/anothersection/"
-    weight = 3
-  [[menu.main]]
-    identifier = "another-category1"
-    name = "Another Category1"
-    url = "/categories/anothercategory1/"
-    parent = "another-section"
-    weight = 1
-  [[menu.main]]
-    identifier = "another-category2"
-    name = "Another Category2"
-    url = "/categories/anothercategory2/"
-    parent = "another-section"
-    weight = 2  
-
+    identifier = "vorstand2"
+    name = "Der Vorstand2"
+    url = "/verein2/vorstand/"
+    parent = "verein2"
+    weight = 1    
+    
 [Params]
-  mainSections = ["docs","trala"]
+  mainSections = ["neuigkeiten"]
   logo = "img/Wappen_Abbensen.jpg"
   subtitle = "Seit 1901" # Logo subtitle
+  readmore = true # Show "Read more" button in list if true
   #highlightColor = "#296b24" # Override highlight color
 
 #[Params.style.vars]
