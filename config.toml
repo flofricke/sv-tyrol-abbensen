@@ -17,15 +17,22 @@ theme = 'highway'
   [[menu.main]]
     identifier = "vorstand"
     name = "Der Vorstand"
-    url = "/verein/1_vorstand/"
+    url = "/verein/vorstand/"
     parent = "verein"
     weight = 1
   [[menu.main]]
     identifier = "vorsitzende"
     name = "Chronik der Vorsitzenden"
-    url = "/verein/2_vorsitzende/"
+    url = "/verein/vorsitzende/"
     parent = "verein"
-    weight = 2    
+    weight = 2
+  [[menu.main]]
+    identifier = "sportschiessen"
+    name = "Sportliches Schießen"
+    url = "/verein/sportschiessen/"
+    parent = "verein"
+    weight = 3    
+
     
 [Params]
   mainSections = ["neuigkeiten"]
